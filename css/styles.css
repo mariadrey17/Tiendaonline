@@ -1,5 +1,6 @@
-.menu {
-  align-items: center;
+.menu li {
+  display: inline;
+  justify-content: center;
 }
 
 h1 {
