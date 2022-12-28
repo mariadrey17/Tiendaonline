@@ -2,6 +2,7 @@
   display: inline;
   justify-items: space-evenly;
   font-size: 2rem;
+  font-family: "Inter Tight", sans-serif;
 }
 
 li a {
