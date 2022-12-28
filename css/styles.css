@@ -9,12 +9,12 @@ li a {
   text-decoration: none;
   background-color: rgb(243, 208, 214);
   padding: 30px;
-  margin-top: 20px;
 }
 
 nav {
   text-align: center;
   padding: 0;
+  margin-top: 85px;
 }
 
 h1 {
