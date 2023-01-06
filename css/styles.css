@@ -55,6 +55,13 @@ p {
   background-attachment: fixed;
 }
 
+.bootstrap-contenedor {
+  margin-top: 101px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .container-sucursales {
   width: 100%;
   max-width: 1000px;
