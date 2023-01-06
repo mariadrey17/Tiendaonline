@@ -1,0 +1,21 @@
+.container-sucursales {
+    width:100%;
+    max-width:1000px;
+    margin : auto; 
+    margin-top: 47px;
+}
+.table {
+    width:100% ;
+    border:1px solid black;
+    border-collapse:collapse;
+    margin:0;
+    padding:0;
+    table-layout:fixed;
+}
+
+.table caption {
+    font-size:24px ;
+    text-transform:uppercase ;
+    font-weight:bold ;
+    margin: 8px 0px;
+}
