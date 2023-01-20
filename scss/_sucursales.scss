@@ -22,5 +22,9 @@
 }
 
 body.body-img {
+    margin:0;
+    padding: 0;
     background-image: url(../img/pexels-eyup-beyhan-7820006.jpg);
+   background-size: cover;
+   background-position: center;
 }
