@@ -1,7 +1,3 @@
-.sucursales-body {
-  background-image: url(../img/pexels-eyup-beyhan-7820006.jpg);
-}
-
 .menu li {
   display: inline;
   justify-items: space-evenly;
@@ -66,7 +62,7 @@ p {
   justify-content: space-between;
 }
 
-.sucursales-body {
+body.body-img {
   background-image: url(../img/pexels-eyup-beyhan-7820006.jpg);
 }
 
