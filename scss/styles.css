@@ -66,6 +66,10 @@ p {
   justify-content: space-between;
 }
 
+.sucursales-body {
+  background-image: url(../img/pexels-eyup-beyhan-7820006.jpg);
+}
+
 .container-sucursales {
   width: 100%;
   max-width: 1000px;
