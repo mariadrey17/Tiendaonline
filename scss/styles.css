@@ -62,10 +62,6 @@ p {
   justify-content: space-between;
 }
 
-body.body-img {
-  background-image: url(../img/pexels-eyup-beyhan-7820006.jpg);
-}
-
 .container-sucursales {
   width: 100%;
   max-width: 1000px;
@@ -87,6 +83,10 @@ body.body-img {
   text-transform: uppercase;
   font-weight: bold;
   margin: 8px 0px;
+}
+
+body.body-img {
+  background-image: url(../img/pexels-eyup-beyhan-7820006.jpg);
 }
 
 h2 {
