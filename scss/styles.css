@@ -62,6 +62,14 @@ p {
   justify-content: space-between;
 }
 
+body.box {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/pexels-cottonbro-studio-10295207.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .container-sucursales {
   width: 100%;
   max-width: 1000px;
@@ -83,14 +91,6 @@ p {
   text-transform: uppercase;
   font-weight: bold;
   margin: 8px 0px;
-}
-
-body.body-img {
-  margin: 0;
-  padding: 0;
-  background-image: url(../img/pexels-eyup-beyhan-7820006.jpg);
-  background-size: cover;
-  background-position: center;
 }
 
 h2 {

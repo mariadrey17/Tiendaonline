@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <title>comunicate con nosotros</title>
   </head>
-  <body>
+  <body class="box">
     <h1>Contacto</h1>
     <header>
       <nav>
@@ -23,10 +23,10 @@
         </ul>
       </nav>
     </header>
-    <section class="datos">
+    <section >
       <h2>Formulario</h2>
       <br />
-      <form>
+      <form id="formulario">  
         <div>
           <label for="nombre">Nombre y Apellido</label>
           <input type="text" id="nombre" />
@@ -35,16 +35,20 @@
           <label for="email">Correo electrónico</label>
           <input type="text" id="email" />
         </div>
-        <div>
-          <label for="contrasena">Ingresa tu contraseña</label>
-          <input type="password" id="contrasena" />
-        </div>
-        <br />
-        <div>
+      
           <label for="mensaje">Dejanos tu mensaje</label>
           <textarea id="mensaje" cols="30" rows="10"></textarea>
         </div>
+        <div>
+          <input type="submit"  id="btn"  value="enviar">
+        </div>
+
+
       </form>
     </section>
+
+
+
+    <script src="../tienda.js"></script>
   </body>
 </html>
