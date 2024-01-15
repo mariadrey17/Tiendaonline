@@ -1,26 +1,9 @@
-//añadir producto al carrito primera forma (no funcionó)
+/*me traigo el div shopcontent del html */
+const shopContent = document.getElementById("shopContent");
+const verCarrito = document.getElementById("verCarrito");
+const modalContainer = document.getElementById("modal-container");
 
-//class Carrito {
-//comprarProducto (e) {
-// e.preventDefault() ;
-//if (e.target.classList.contains('agregar-carrito')){
-// const producto =e.target.parentElement.parentElement;
-// this .leerDatosProducto(producto);
-//console.log(producto);
-//}
-//}
-//otro metodo para leer datos
-//leerDatosProducto (producto){
-// const infoProducto={
-//  imagen:producto.document.getElementById ('carrito-image'),
-//  titulo:producto.document.getElementByClassName('card-title'),
-// precio:producto.document.getElementByClassName('.card-text'),
-// id:producto.document.getAttribute('a').getAttribute ('data-id'),
-// cantidad:1
-//}
-//this.insertarCarrito(infoProducto);
-
-//segunda forma de añadir productos al carrito
+/*array con productos*/
 
 const productos = [
   {
@@ -54,10 +37,10 @@ productos.forEach((product) => {
   let content = document.createElement("div");
   content.className = "card";
   content.innerHTML = ` 
-           <img src =" ${product.img}">
-           <h3> ${product.nombre}</h3>
-           <p class="price"> ${product.precio}
-           `;
+    <img src =" ${product.img}">
+    <h3> ${product.nombre}</h3>
+    <p class="price"> ${product.precio}
+    `;
   shopContent.append(content);
 
   let comprar = document.createElement("button");
@@ -82,8 +65,8 @@ verCarrito.addEventListener("click", () => {
   const modalHeader = document.createElement("div");
   modalHeader.className = "modal-header";
   modalHeader.innerHTML = `
-           <h1 class="modal-header-title">Carrito</h1>
-           `;
+    <h1 class="modal-header-title">Carrito</h1>
+    `;
 
   modalContainer.append(modalHeader);
 
@@ -101,10 +84,10 @@ verCarrito.addEventListener("click", () => {
     let carritoContent = document.createElement("div");
     carritoContent.className = "modal-content";
     carritoContent.innerHTML = `
-               <img src ="${product.img}">
-               <h3> ${product.nombre}</h3>
-               <p>${product.precio} $</p>
-               `;
+        <img src ="${product.img}">
+        <h3> ${product.nombre}</h3>
+        <p>${product.precio} $</p>
+        `;
     modalContainer.append(carritoContent);
   });
 
@@ -112,6 +95,6 @@ verCarrito.addEventListener("click", () => {
   const totalBuying = document.createElement("div");
   totalBuying.className = "total-content";
   totalBuying.innerHTML = `
-           total a pagar: ${total} $ `;
+    total a pagar: ${total} $ `;
   modalContainer.append(totalBuying);
 });
