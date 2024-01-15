@@ -1,27 +1,25 @@
-
-
-.menu li  {
-   display:  inline;
-   justify-items: space-evenly;
-   font-size:2rem ;
-   font-family: 'Inter Tight', sans-serif;
-  
+.menu li {
+  display: inline;
+  justify-items: space-evenly;
+  font-size: 2rem;
+  font-family: "Inter Tight", sans-serif;
 }
 
 li a {
-  color : black;
+  color: black;
   text-decoration: none;
-  background-color: rgb(243, 208, 214) ;
+  background-color: rgb(243, 208, 214);
   padding: 30px;
- 
-
-  
 }
 
-
-  nav {
-text-align:center;
-padding: 0;
-margin-top: 85px;
+nav {
+  text-align: center;
+  padding: 0;
+  margin-top: 85px;
 }
- 
+.ver-carrito {
+  font-size: 25px;
+  margin-right: 20px;
+  margin-top: 3.5 vh;
+  cursor: pointer;
+}
