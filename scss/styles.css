@@ -18,6 +18,13 @@ nav {
   margin-top: 85px;
 }
 
+.ver-carrito {
+  font-size: 25px;
+  margin-right: 60px;
+  margin-top: 3.5 vh;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
